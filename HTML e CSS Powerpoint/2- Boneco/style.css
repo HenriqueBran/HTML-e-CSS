@@ -1,0 +1,86 @@
+body {
+    background-color: #87CEEB; /* Sky Blue */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+}
+
+.head {
+    width: 120px;
+    height: 120px;
+    background-color: #F4A460; /* Sandy Brown */
+    border-radius: 50%;
+    position: relative;
+}
+
+.eye {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+}
+
+.left-eye {
+    left: 30px;
+}
+
+.right-eye {
+    right: 30px;
+}
+
+.nose {
+    width: 10px;
+    height: 10px;
+    background-color: #FF6347; /* Tomato */
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mouth {
+    width: 40px;
+    height: 10px;
+    background-color: #000;
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.body {
+    width: 100px;
+    height: 150px;
+    background-color: #F4A460; /* Sandy Brown */
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.arm {
+    width: 20px;
+    height: 100px;
+    background-color: #F4A460; /* Sandy Brown */
+    position: absolute;
+    top: 150px;
+}
+
+.left-arm {
+    left: -30px;
+    transform: rotate(30deg);
+}
+
+.right-arm {
+    right: -30px;
+    transform: rotate(-30deg);
+}

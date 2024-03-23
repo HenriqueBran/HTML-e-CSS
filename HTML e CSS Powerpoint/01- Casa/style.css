@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #87CEEB; /* Céu Azul */
+}
+
+.house {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 100px auto;
+  background-color: #F4A460; /* Marrom Claro */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.roof {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+  border-bottom: 100px solid #8B4513; /* Marrom Sela */
+}
+
+.walls {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  height: 300px;
+  background-color: #FFE4C4; /* Bege */
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.window {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  width: 80px;
+  height: 80px;
+  margin-left: -40px;
+  background-color: #ADD8E6; /* Azul Claro */
+  border: 5px solid #000;
+  border-radius: 10px;
+}
+
+.door {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 120px;
+  height: 220px;
+  margin-left: -60px;
+  background-color: #8B4513; /* Marrom Sela */
+  border: 5px solid #000;
+  border-radius: 10px;
+}
+
+.chimney {
+  position: absolute;
+  top: -100px;
+  right: 20px;
+  width: 40px;
+  height: 100px;
+  background-color: #8B4513; /* Marrom Sela */
+  border: 5px solid #000;
+  border-radius: 5px;
+}
